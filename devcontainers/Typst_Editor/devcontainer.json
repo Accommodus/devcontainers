@@ -1,7 +1,7 @@
 {
     "name": "Typst Editor",
     "build": {
-        "dockerfile": "install-fonts.Dockerfile"
+        "dockerfile": "Dockerfile"
     },
     "features": {
         "ghcr.io/rocker-org/devcontainer-features/pandoc:1": {},
