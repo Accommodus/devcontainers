@@ -1,0 +1,19 @@
+{
+    "name": "Nim",
+    "build": {
+        "dockerfile": "Dockerfile"
+    },
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "nimlang.nimlang"
+            ],
+            "settings": {
+                "editor.detectIndentation": true,
+                "editor.tabSize": 2,
+                "editor.insertSpaces": true
+            }
+        }
+    },
+    "features": {}
+}
